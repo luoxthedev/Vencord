@@ -1,18 +1,18 @@
 {
-    "name": "vencord",
+    "name": "luoxcord",
     "private": "true",
     "version": "1.13.6",
-    "description": "The cutest Discord client mod",
-    "homepage": "https://github.com/Vendicated/Vencord#readme",
+    "description": "LuoxCord, a fork of Vencord - Discord client mod by @luoxthedev, originally created by Vendicated",
+    "homepage": "https://github.com/luoxthedev/Vencord#readme",
     "bugs": {
-        "url": "https://github.com/Vendicated/Vencord/issues"
+        "url": "https://github.com/luoxthedev/Vencord/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Vendicated/Vencord.git"
+        "url": "git+https://github.com/luoxthedev/Vencord.git"
     },
     "license": "GPL-3.0-or-later",
-    "author": "Vendicated",
+    "author": "luoxthedev (fork), originally created by Vendicated",
     "scripts": {
         "build": "node --require=./scripts/suppressExperimentalWarnings.js scripts/build/build.mjs",
         "buildStandalone": "pnpm build --standalone",
