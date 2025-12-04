@@ -1,6 +1,6 @@
 /*
- * Vencord, a modification for Discord's desktop app
- * Copyright (c) 2022 Vendicated and contributors
+ * LuoxCord, a fork of Vencord (modification for Discord's desktop app)
+ * Copyright (c) 2022 Vendicated and contributors, forked by luoxthedev
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -37,7 +37,7 @@ import { ContextMenuApi, Forms, Menu, Toasts, UserStore } from "@webpack/common"
 const CONTRIBUTOR_BADGE = "https://cdn.discordapp.com/emojis/1092089799109775453.png?size=64";
 
 const ContributorBadge: ProfileBadge = {
-    description: "Vencord Contributor",
+    description: "LuoxCord Contributor",
     iconSrc: CONTRIBUTOR_BADGE,
     position: BadgePosition.START,
     shouldShow: ({ userId }) => shouldShowContributorBadge(userId),

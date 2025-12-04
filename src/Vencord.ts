@@ -1,6 +1,6 @@
 /*!
- * Vencord, a modification for Discord's desktop app
- * Copyright (c) 2022 Vendicated and contributors
+ * LuoxCord, a fork of Vencord (modification for Discord's desktop app)
+ * Copyright (c) 2022 Vendicated and contributors, forked by luoxthedev
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -126,7 +126,7 @@ async function runUpdateCheck() {
             await update();
             if (Settings.autoUpdateNotification) {
                 notify({
-                    title: "Vencord has been updated!",
+                    title: "LuoxCord has been updated!",
                     body: "Click here to restart",
                     onClick: relaunch
                 });
@@ -135,7 +135,7 @@ async function runUpdateCheck() {
         }
 
         notify({
-            title: "A Vencord update is available!",
+            title: "A LuoxCord update is available!",
             body: "Click here to view the update",
             onClick: () => openSettingsTabModal(UpdaterTab!)
         });

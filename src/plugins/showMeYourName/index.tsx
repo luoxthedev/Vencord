@@ -1,5 +1,5 @@
 /*
- * Vencord, a Discord client mod
+ * LuoxCord, a fork of Vencord (Discord client mod)
  * Copyright (c) 2023 rini
  * SPDX-License-Identifier: GPL-3.0-or-later
  */

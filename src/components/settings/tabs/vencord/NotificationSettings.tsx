@@ -1,6 +1,6 @@
 /*
- * Vencord, a Discord client mod
- * Copyright (c) 2024 Vendicated and contributors
+ * LuoxCord, a fork of Vencord (Discord client mod)
+ * Copyright (c) 2024 Vendicated and contributors, forked by luoxthedev
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -72,7 +72,7 @@ function NotificationSettings() {
                 options={[
                     { label: "Only use Desktop notifications when Discord is not focused", value: "not-focused", default: true },
                     { label: "Always use Desktop notifications", value: "always" },
-                    { label: "Always use Vencord notifications", value: "never" },
+                    { label: "Always use LuoxCord notifications", value: "never" },
                 ] satisfies Array<{ value: typeof settings["useNative"]; } & Record<string, any>>}
                 closeOnSelect={true}
                 select={v => settings.useNative = v}

@@ -1,6 +1,6 @@
 /*
- * Vencord, a modification for Discord's desktop app
- * Copyright (c) 2022 Vendicated and contributors
+ * LuoxCord, a fork of Vencord (modification for Discord's desktop app)
+ * Copyright (c) 2022 Vendicated and contributors, forked by luoxthedev
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -75,7 +75,7 @@ export const _handleCommand = function (cmd: VencordCommand, args: CommandArgume
         sendBotMessage(ctx.channel.id, {
             content: `${msg}:\n${makeCodeblock(reason)}`,
             author: {
-                username: "Vencord"
+                username: "LuoxCord"
             }
         });
     };

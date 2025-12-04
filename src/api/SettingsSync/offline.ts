@@ -1,6 +1,6 @@
 /*
- * Vencord, a Discord client mod
- * Copyright (c) 2025 Vendicated and contributors
+ * LuoxCord, a fork of Vencord (Discord client mod)
+ * Copyright (c) 2025 Vendicated and contributors, forked by luoxthedev
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -62,7 +62,7 @@ export async function uploadSettingsBackup(showToast = true): Promise<void> {
     if (IS_DISCORD_DESKTOP) {
         const [file] = await DiscordNative.fileManager.openFiles({
             filters: [
-                { name: "Vencord Settings Backup", extensions: ["json"] },
+                { name: "LuoxCord Settings Backup", extensions: ["json"] },
                 { name: "all", extensions: ["*"] }
             ]
         });

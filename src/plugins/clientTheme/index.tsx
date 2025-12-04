@@ -1,6 +1,6 @@
 /*
- * Vencord, a Discord client mod
- * Copyright (c) 2023 Vendicated and contributors
+ * LuoxCord, a fork of Vencord (Discord client mod)
+ * Copyright (c) 2023 Vendicated and contributors, forked by luoxthedev
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 

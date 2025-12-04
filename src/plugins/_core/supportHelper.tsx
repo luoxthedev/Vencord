@@ -1,6 +1,6 @@
 /*
- * Vencord, a modification for Discord's desktop app
- * Copyright (c) 2023 Vendicated and contributors
+ * LuoxCord, a fork of Vencord (modification for Discord's desktop app)
+ * Copyright (c) 2023 Vendicated and contributors, forked by luoxthedev
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -156,13 +156,13 @@ export default definePlugin({
     commands: [
         {
             name: "vencord-debug",
-            description: "Send Vencord debug info",
+            description: "Send LuoxCord debug info",
             predicate: ctx => isPluginDev(UserStore.getCurrentUser()?.id) || isSupportAllowedChannel(ctx.channel),
             execute: async () => ({ content: await generateDebugInfoMessage() })
         },
         {
             name: "vencord-plugins",
-            description: "Send Vencord plugin list",
+            description: "Send LuoxCord plugin list",
             predicate: ctx => isPluginDev(UserStore.getCurrentUser()?.id) || isSupportAllowedChannel(ctx.channel),
             execute: () => ({ content: generatePluginList() })
         }
