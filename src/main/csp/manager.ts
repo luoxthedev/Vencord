@@ -1,6 +1,6 @@
 /*
- * Vencord, a Discord client mod
- * Copyright (c) 2025 Vendicated and contributors
+ * LuoxCord, a fork of Vencord (Discord client mod)
+ * Copyright (c) 2025 Vendicated and contributors, forked by luoxthedev
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -82,7 +82,7 @@ async function addCspRule(_: IpcMainInvokeEvent, url: string, directives: string
     const { checkboxChecked, response } = await dialog.showMessageBox({
         ...getMessage(url, directives, callerName),
         type: callerName ? "info" : "warning",
-        title: "Vencord Host Permissions",
+        title: "LuoxCord Host Permissions",
         buttons: ["Cancel", "Allow"],
         defaultId: 0,
         cancelId: 0,

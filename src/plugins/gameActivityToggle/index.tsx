@@ -1,6 +1,6 @@
 /*
- * Vencord, a modification for Discord's desktop app
- * Copyright (c) 2023 Vendicated and contributors
+ * LuoxCord, a fork of Vencord (modification for Discord's desktop app)
+ * Copyright (c) 2023 Vendicated and contributors, forked by luoxthedev
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -43,7 +43,7 @@ const settings = definePluginSettings({
         description: "Where to show the game activity toggle button",
         options: [
             { label: "Next to Mute/Deafen", value: "PANEL", default: true },
-            { label: "Vencord Toolbox", value: "TOOLBOX" }
+            { label: "LuoxCord Toolbox", value: "TOOLBOX" }
         ],
         get hidden() {
             return !isPluginEnabled(VencordToolboxPlugin.name);

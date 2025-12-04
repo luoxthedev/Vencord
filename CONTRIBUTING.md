@@ -1,6 +1,6 @@
-# Contributing to Vencord
+# Contributing to LuoxCord (a fork of Vencord)
 
-Vencord is a community project and welcomes any kind of contribution from anyone!
+LuoxCord is a fork of Vencord, created by @luoxthedev. The original Vencord is a community project by Vendicated.
 
 We have development documentation for new contributors, which can be found at <https://docs.vencord.dev>.
 

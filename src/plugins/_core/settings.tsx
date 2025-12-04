@@ -1,5 +1,5 @@
 /*
- * Vencord, a modification for Discord's desktop app
+ * LuoxCord, a fork of Vencord (modification for Discord's desktop app)
  * Copyright (c) 2022 Vendicated and Megumin
  *
  * This program is free software: you can redistribute it and/or modify
@@ -87,12 +87,12 @@ export default definePlugin({
         return [
             {
                 section: SectionTypes.HEADER,
-                label: "Vencord",
+                label: "LuoxCord",
                 className: "vc-settings-header"
             },
             {
                 section: "settings/tabs",
-                label: "Vencord",
+                label: "LuoxCord",
                 element: VencordTab,
                 className: "vc-settings"
             },
@@ -195,7 +195,7 @@ export default definePlugin({
     options: {
         settingsLocation: {
             type: OptionType.SELECT,
-            description: "Where to put the Vencord settings section",
+            description: "Where to put the LuoxCord settings section",
             options: [
                 { label: "At the very top", value: "top" },
                 { label: "Above the Nitro section", value: "aboveNitro", default: true },
