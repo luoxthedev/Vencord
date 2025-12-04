@@ -1,6 +1,6 @@
 /*
- * Vencord, a Discord client mod
- * Copyright (c) 2023 Vendicated and contributors
+ * LuoxCord, a fork of Vencord (Discord client mod)
+ * Copyright (c) 2023 Vendicated and contributors, forked by luoxthedev
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
@@ -60,15 +60,13 @@ export default tseslint.config(
         },
         rules: {
             /*
-             * Since it's only been a month and Vencord has already been stolen
-             * by random skids who rebranded it to "AlphaCord" and erased all license
-             * information
+             * License header enforcement for LuoxCord fork
              */
             "simple-header/header": [
                 "error",
                 {
                     "files": ["scripts/header-new.txt", "scripts/header-old.txt"],
-                    "templates": { "author": [".*", "Vendicated and contributors"] }
+                    "templates": { "author": [".*", "Vendicated and contributors, forked by luoxthedev"] }
                 }
             ],
 

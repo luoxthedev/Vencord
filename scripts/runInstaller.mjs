@@ -1,5 +1,5 @@
 /*
- * Vencord, a modification for Discord's desktop app
+ * LuoxCord, a fork of Vencord (modification for Discord's desktop app)
  * Copyright (c) 2023 Vendicated and contributors
  *
  * This program is free software: you can redistribute it and/or modify
@@ -62,7 +62,7 @@ async function ensureBinary() {
 
     const res = await fetch(BASE_URL + filename, {
         headers: {
-            "User-Agent": "Vencord (https://github.com/Vendicated/Vencord)",
+            "User-Agent": "LuoxCord (https://github.com/luoxthedev/Vencord)",
             "If-None-Match": etag
         }
     });
